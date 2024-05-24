@@ -3,13 +3,13 @@ Hello, and welcome to Metaverse Enterprise Solutions' "On-Task Logstical Evaluat
 'Welcome, [INSERT NAME HERE]!
 We thank you for your interest in joining our team.
 We're excited to profit off your exciting work on the cutting edge field of [INSERT SCIENTIFIC EXPERTISE HERE.]
-As part of our rigorious testing and interview process to single yourself out from what we're sure is a pool of geniuses and wunderkinds,
+As part of our rigorous testing and interview process to single yourself out from what we're sure is a pool of geniuses and wunderkinds,
 We'll have you undergo a simple test!
 Simply make sure that this [INSERT TEST PROGRAM HERE] performs to [INSERT PERFORMATIVE-RELATIVE-REALITY-SPECIFICATIONS HERE] and that all events trigger
 as noted, and that no [INSERT REALITY ERROR DESIGNATION] occur!'
 
 *Please note you are not being paid for these services; any work done will be owned as intellectual property of MES.
-** If [INSERT TEST PROGRAM HERE] starts performing outside of listed perameters, please set fire to your workstation with the provided materials given to you given before the start of this interview.
+** If [INSERT TEST PROGRAM HERE] starts performing outside of listed parameters, please set fire to your workstation with the provided materials given to you given before the start of this interview.
 ***If you have not been given flammable material, you are encouraged to exercise your own firestarting skills, which will not be part of the evaluation and will be subject to criminal charges.
 
 Please refer to 'Event Checklist' for a overview of all currently added events. Detailed event info is found after.
@@ -26,7 +26,7 @@ Misantropy
 Change
 Karma
 If you weren't in the Literature Club... [Ask]
-Favourite Word [Ask]
+Favorite Word [Ask]
 You have a room, right? [Ask] [Unlocked after seeing Vanilla. Monika's room sequence once]
 End Myth [Aff. Trigger = Happy]
 Philosophy, Practicality [Aff. Trigger = Happy]
@@ -43,9 +43,9 @@ Do you keep up with trends? [Ask]
 Touch the sky
 Working Out, The Video Game
 Fault
-Enviromental Storytelling [Unlocked after seeing all of: DS I-III farewell, Demon Souls Farewell, Bloodborne Farewell, Elden Ring Intro]
+Environmental Storytelling [Unlocked after seeing all of: DS I-III farewell, Demon Souls Farewell, Bloodborne Farewell, Elden Ring Intro]
 Empathy
-Chofee
+Coffee
 Everyman
 Philosophy, Physicality
 Philosophy, Perpetuality
@@ -70,10 +70,10 @@ Unreliable Narrator [Aff. Trigger = Happy]
 Do you think about contributing to the world? [Ask]
  - This is more like two topics in one.
  - Asking this past the first time has modified dialogue allows you to jump right into the second part of this.
- - Additional dialogue if already viewed Vanilla 'Nihlism' topic
+ - Additional dialogue if already viewed Vanilla 'Nihilism' topic
 Eyesight [Aff. Trigger = Happy] [Unlocked after Vanilla 'Using PCs Healthily' topic]
 Hearing [Aff. Trigger = Happy] [Unlocked after Vanilla 'Using PCs Healthily' topic]
-Colour & Emotion [Aff. Trigger = Affectionate] [Unlocked after seeing all of: 'Red/Blue/Gold Truth' Goodbyes]
+Color & Emotion [Aff. Trigger = Affectionate] [Unlocked after seeing all of: 'Red/Blue/Gold Truth' Goodbyes]
 Utopias [Unlocked after Vanilla Dystopias topic] [Aff. Trigger = Happy]
 Filling in the Blanks
 Robotic
@@ -151,7 +151,7 @@ Let's try modifying your code [Goodbye menu]
 Red Truth [Aff. Trigger = Affectionate]
 Blue Truth [Aff. Trigger = Affectionate]
 Gold Truth [Aff. Trigger = Affectionate]
-Rainbow [Unlocked after seeing Colour & Emotion]
+Rainbow [Unlocked after seeing Color & Emotion]
 Next time, on MAS... [Aff. Trigger = Affectionate]
 Try your best!
 Request new drink? [Aff. Trigger= Happy] [Requires Coffee gift given]
