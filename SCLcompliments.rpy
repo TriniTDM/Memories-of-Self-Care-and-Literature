@@ -64,7 +64,7 @@ label mcl_compliment_posture2:
     m 5dsbla ".. and being pretty."
     m 7ftblu "So thank you for making me feel pretty."
     m 4hsa "And I'm impressed; a good compliment should sometimes be specific. It shows you pay attention."
-    m "And I *do* try to pay attention to my posture."
+    m "And I {i}do{/i} try to pay attention to my posture."
     m 4hsb "So I'm glad you do too!"
     return
 
