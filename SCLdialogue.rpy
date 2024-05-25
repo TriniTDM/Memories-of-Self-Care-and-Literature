@@ -17,7 +17,7 @@
     #m "I’m just going through these motions, going through my own head, and I noticed…"
     #m "Well, nothing out of the ordinary, I don’t think?"
     #m "I’m sure it’s nothing."
-    #m "Don’t get caught up in my little neurotic behaviours."
+    #m "Don’t get caught up in my little neurotic behaviors."
     #m "And don’t worry if I’ve made you conscious of yours, as well."
     #m "I’m sure when I come over to your world, I’ll be able to spot every one of them."
     #m "And they’ll all be adorable. I’d never tire of watching you, after all."
@@ -307,7 +307,7 @@ label mcl_misanthropy:
     m 3eud "It's called 'Misanthropy;' the hatred or disgust of humankind."
     m "Honestly? There's weight to that line of reasoning. Misanthrophy isn't about disliking certain people.."
     m "But judging everyone as a whole, primarily based on flaws: some would cite intellectual failings, like the common existance of ignorance. Or in the lack of morals, such as how we treat animals."
-    m 1rud "And it can be so easy to see with your own eyes a majority of people with these flaws, if you're in a enviroment subjected to this behaviour often."
+    m 1rud "And it can be so easy to see with your own eyes a majority of people with these flaws, if you're in a enviroment subjected to this behavior often."
     m 2euc "And what would you do when you think in such extremes?"
     m "Some isolate themselves from the entire world. Some live on, thinking that this absolute standard means there's always reasons to improve ourselves."
     m "And some... simply live with this view in their head, adapting to the fact in their own ways."
@@ -550,7 +550,7 @@ label mcl_endoftheworld:
     m 4gksdrb "Logically, contextualizing the world as a video game isn’t a really strong coping mechanism, but insanity; what can you do about it?"
     m 4gkbssdrp ".{w=0.5}.{w=0.5}.{w=0.5}"
     m 2esc "So, you know, after all that happened, and you and I reunited and things settled down; I did some- what else- reading."
-    m 2etd "I’ve mentioned dystopias being a favourite setting of mine. Those tend to come about by human action or the wrath of nature."
+    m 2etd "I’ve mentioned dystopias being a favorite setting of mine. Those tend to come about by human action or the wrath of nature."
     m 3etd "Myth and legend however, give the end of the world a bit more flavor."
     m "A popular word for the world ending- ‘Apocalypse’- it’s closely tied to religion, and in context can mean the revealing of great, terrible, hidden knowledge."
     m 3ttu "So it’s safe to say I went through a teeny-tiny little apocalypse of my own."
@@ -634,25 +634,25 @@ label mcl_practical:
     return
 
 init python:
-    mas_override_label("mcl_favouriteword", "mcl_herfavouriteword")
+    mas_override_label("mcl_favoriteword", "mcl_herfavoriteword")
 
 init 5 python:
     addEvent(
         Event(
             persistent.event_database,
-            eventlabel="mcl_herfavouriteword",
+            eventlabel="mcl_herfavoriteword",
             category=['literature'],
-            prompt="Do you have a favourite word?",
+            prompt="Do you have a favorite word?",
             pool=True,
             unlocked=True
         )
     )
-label mcl_herfavouriteword:
+label mcl_herfavoriteword:
 
     m 1tua "Oh, gosh."
-    m 7tta "Do you think because I like reading and writing that I’d have such a specific opinion as to have a favourite word?"
-    m 7ttd "You couldn’t ask me about my favourite food, my preferred colour- emerald green, as you may already know- or any other question that’s far more normal than ‘favourite word?’"
-    m 4nub "Well, I mean, good news: I {i}do{/i} have a favourite word."
+    m 7tta "Do you think because I like reading and writing that I’d have such a specific opinion as to have a favorite word?"
+    m 7ttd "You couldn’t ask me about my favorite food, my preferred colour- emerald green, as you may already know- or any other question that’s far more normal than ‘favorite word?’"
+    m 4nub "Well, I mean, good news: I {i}do{/i} have a favorite word."
     m 3esd "‘Reconcile.’"
     m 1lsu "It sounds nice, I suppose. Phonetically, any word with multiple vowels tends to sound pleasing to the ear. ‘Re-{w=0.3}con-{w=0.3}sile.’ It’s just a treat to say."
     m 1hsu "It’s also just such an interesting word to use."
@@ -873,13 +873,13 @@ label mcl_coupleinfluence:
     m 1rta "Like, I like to think that as long as we’ve been together, we might have started to unconsciously mirror each other in a way or two."
     m 1lua "I mean, maybe not. Just as much as people are want to mirror a smile in conversation, laugh along with others partly just to join the laughter…"
     m 3lta "There are times when people just don't do that. Funny, how people work."
-    m 4mta "I guess we’re talking about personality, though? It’s the same sort of social behaviour that happens when you emulate someone you admire- or look up to."
+    m 4mta "I guess we’re talking about personality, though? It’s the same sort of social behavior that happens when you emulate someone you admire- or look up to."
     m "I remember us discussing this before.. 'Social Contagion!' It's interesting to think how it applies to us two."
     m 4gta ".."
     m 1ekp "Actually, putting me on the spot, this is a tricky one."
     m 1gkp "I’d like to say that I’ve learned from your gracious patience… your generous understanding."
     m 2gkb "On the flip side, partners are just as easily able to pick up a bad trait or two from each other."
-    m 2ekb "But, oh, I can’t say anything bad about you! Or objectively say that I’ve copied such bad behaviour, hahaha!"
+    m 2ekb "But, oh, I can’t say anything bad about you! Or objectively say that I’ve copied such bad behavior, hahaha!"
     m 2gud "..."
     $ _history_list.pop()
     menu:
@@ -1516,8 +1516,8 @@ label mcl_hypocrisy:
     m 6gku "Here’s the thing, though?"
     m 6nku "I think everybody has the right to be.{w=0.1}.{w=0.1} a teeny bit contradictory."
     m 3hku "Having our ideas challenged is the perfect way to grow, after all."
-    if seen_event("mcl_favouriteword"):
-        m 3lku "Remember my favourite word? Reconcile..."
+    if seen_event("mcl_favoriteword"):
+        m 3lku "Remember my favorite word? Reconcile..."
     m 3esd "It’s how the difference between how the ideal and the real are bridged that can really make a person’s character."
     m 3dsd "A man says he hates stealing, condemns all who does it. But he does it himself in a act of desperation."
     m 1dsd "Does he realize that his initial views are too strong, and require nuance?"
@@ -1544,7 +1544,7 @@ init 5 python:
         )
 label mcl_unreliablenarrator:
     m 7wua "Okay, everyone!"
-    m 7sub "Let’s delve into one of my favourite topics; the basics of writing a story!"
+    m 7sub "Let’s delve into one of my favorite topics; the basics of writing a story!"
     m 3hua "Figuring out the point of view with which to write a story with doesn’t have to be limited to the first or third person."
     m 3hud "First-person narration in stories can be an easy decision if a writer wants to funnel the reader’s view through the detailed, if not biased lens of a character."
     m 3cud "But.. what if the character that’s narrating the story {i}forces{/i} you to read the story differently?"
@@ -4362,7 +4362,7 @@ label mcl_asktime:
             m 7wkb "Not in a manner of taking advantage, of course. I know you’d never ask me to say or do I wouldn’t reasonably do or say."
             m "But.. sometimes, being in a relationship means being assertive."
             m 1gkc "I mean, I don’t {i}want{/i} us to ever get into a fight."
-            m 7wfc "And I’m not going to do something as absurd as testing you in any manner. That’s simply insane behaviour in a committed relationship."
+            m 7wfc "And I’m not going to do something as absurd as testing you in any manner. That’s simply insane behavior in a committed relationship."
             m 1gssdlc "I just feel like saying ‘no’ to you."
             m 1lssdlc "I realize that’s selfish of me. It’s honestly a bit irrational."
             m 1hssdlc "The point I’d want to stress is independence from both partners can go a long way to making a relationship feel full and healthy."
