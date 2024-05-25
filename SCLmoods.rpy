@@ -14,7 +14,7 @@ label mcl_mood_weird:
     m 7esc "I get it, really. Sometimes you're feeling a lot of different emotions at once. Sometimes you're feeling something you can't put into words."
     m 7esc "Sometimes you know exactly what you're feeling.. but there are no words for it."
     m 1hsc "Sometimes that bundle of emotions comes and goes. That's natural."
-    m 1fsc "I hope this isn't because you aren't going through stressful circumstances that's hard to process, [player]. I'm here for you, remember that."
+    m 1fsc "I hope this isn't because you aren't going through stressful circumstances that are hard to process, [player]. I'm here for you, remember that."
     m 1esc "Sometimes a big, tangled ball of emotions needs to be untangled a thread at a time to make it a little more managable."
     m 1esa "If you're just feeling a little bit adrift... remember I can always be your north star."
     return
