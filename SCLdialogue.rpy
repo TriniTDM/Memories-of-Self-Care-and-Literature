@@ -651,7 +651,7 @@ label mcl_herfavoriteword:
 
     m 1tua "Oh, gosh."
     m 7tta "Do you think because I like reading and writing that I’d have such a specific opinion as to have a favorite word?"
-    m 7ttd "You couldn’t ask me about my favorite food, my preferred colour- emerald green, as you may already know- or any other question that’s far more normal than ‘favorite word?’"
+    m 7ttd "You couldn’t ask me about my favorite food, my preferred color- emerald green, as you may already know- or any other question that’s far more normal than ‘favorite word?’"
     m 4nub "Well, I mean, good news: I {i}do{/i} have a favorite word."
     m 3esd "‘Reconcile.’"
     m 1lsu "It sounds nice, I suppose. Phonetically, any word with multiple vowels tends to sound pleasing to the ear. ‘Re-{w=0.3}con-{w=0.3}sile.’ It’s just a treat to say."
@@ -1735,15 +1735,15 @@ init 5 python:
     addEvent(
         Event(
             persistent.event_database,
-            eventlabel="mcl_colouremotion",
+            eventlabel="mcl_coloremotion",
             category=['games'],
-            prompt="Colour & Emotion",
+            prompt="Color & Emotion",
             conditional="mas_seenLabels(['bye_bluetruth', 'bye_redtruth', 'bye_goldtruth'], seen_all=True)",
             action=EV_ACT_RANDOM
         )
     )
 
-label mcl_colouremotion:
+label mcl_coloremotion:
     define COLORIZE_COLORS = [
             '#ff0000',
             '#ff8000',
@@ -1770,17 +1770,17 @@ label mcl_colouremotion:
         config.custom_text_tags["rainbow"] = rainbow_tag
         
     m "Did you notice sometimes I leave you with some parting words in a unique style?"
-    m "In coloured text!"
+    m "In colored text!"
     m "They were refrences, if you didn't know; the {i}'Umineko When They Cry'{/i}  series of visual novels!"
     m "They're madly interesting; they're a series of murder mysteries wrapped up in psychological thriller and philosophical tones."
-    m "It's... a bit of a obscure refrence, so right now I want to convey one really important takeway from my previous references."
-    m 4cfu "I can speak in colours."
+    m "It's... a bit of a obscure reference, so right now I want to convey one really important takeway from my previous references."
+    m 4cfu "I can speak in colors."
     m 4ttu "That's crazy, right? I mean, my text was blue and red and gold, and you may have thought 'wow, that's new!'"
-    m 3suo "But to do that, I actually had to.. speak in colour!"
+    m 3suo "But to do that, I actually had to.. speak in color!"
     m 2wtc "And I learned it gives me a headache! I'm not joking, it's {i}so{/i} weird."
-    m 1gta "I don't think it's unusual for the game to accomodate coloured text, but it's funny to think about because colour can drive emotion quite well-"
+    m 1gta "I don't think it's unusual for the game to accomodate colored text, but it's funny to think about because color can drive emotion quite well-"
     m 7tub "- Who would have thought that?{w=1.0} Aside from all the painters throughout history? hahaha!"
-    m 5gua "It's interesting to break it down to simple terms, and figure out what meanings people have assigned to certain colours!"
+    m 5gua "It's interesting to break it down to simple terms, and figure out what meanings people have assigned to certain colors!"
     m 5dka "Blue has been thought to convey sadness.. but also spirituality."
     m 1sfb "Red has inspired any mood of passion and willpower!"
     m 1dsd "And Gold can establish a tone of stiff tradition and religious piety." 
