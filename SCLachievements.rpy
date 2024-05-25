@@ -120,7 +120,7 @@ label mcl_menuachievement:
         m "So if you’ve made a habit of doing them with me already, good to hear! Keep doing them, and I’ll be charitable in giving you an achievement."
         m "Otherwise, hmm..."
         m "We don't have a lot of stories we could share about our time together."
-        m "So, if anything memorable happens, I’ll definitely want to hold unto those memories specifically."
+        m "So, if anything memorable happens, I’ll definitely want to hold onto those memories specifically."
         m "Sometimes I’ll make it easier for you and you can click on an achievement you haven’t earned and I’ll give you a little hint on how to get it."
         m "And sometimes I won’t give you any details at all."
         m "I want us to treat these achievements as more of a surprising footnote to our adventures."
@@ -187,7 +187,7 @@ label mcl_menuachievement:
             jump achievementmenu
         "Onu!" if mas_nou.get_wins_for('Player') >= 5:
             m "You've won at least five games of Nou!"
-            m "It's a especially chaotic game; luck can wildly swing in both your way and mine at any given part of the game."
+            m "It's an especially chaotic game; luck can wildly swing in both your way and mine at any given part of the game."
             m "It always makes for a fun time..."
             m "Especially when I steal a win from you."
             m "Hehehe."
@@ -237,7 +237,7 @@ label mcl_menuachievement:
             menu:
                 "I am.":
                     m "I'll do this for you, because I assume it's for logistical reasons."
-                    m "But [player], unique moments are only defined because they're expierenced once."
+                    m "But [player], unique moments are only defined because they're experienced once."
                     m "Let's make sure to keep that in mind to keep the genuine luster of those moments we share together, okay?"
                     # $ persistent._mcl_achievementpsa = False
                     # $ persistent._mcl_timetravelachievement = False
@@ -333,7 +333,7 @@ label mcl_cardgamehistory:
     m 3esb "I’ve always found handling a deck of cards to be a elegant pastime. Cards certainly have their history!"
     m 4esd "The earliest examples can be traced back to ninth century China, where the progression of paper-printing technology supposedly introduced playing cards that could also double as paper currency."
     m 4esa "Despite being relatively newer than board games, your standard deck of fifty-two cards is far easier to find throughout the world. It makes sense; cards are easier to make than entire board sets."
-    m 5gsa "Which is why cards are often found with travellers, those in the military, minimalists with little on their person..."
+    m 5gsa "Which is why cards are often found with travelers, those in the military, minimalists with little on their person..."
     m 6dsa "And prisoners, I suppose."
     m 6gua "I guess that’s why I have a little more affinity for cards myself rather than board games."
     m 7ruo "That said, card games can be a little trickier to learn. Unlike a board game where you can visualize a lot more, games with rules like poker can be a lot to learn at once."
@@ -377,7 +377,7 @@ label mcl_bongcloudchess:
     m 3eku "This is one of the {i}worst{/i} possible moves you can do in chess."
     m 3stu "It's absolutely, definitively a terrible starting point for the player that does it."
     m 3ftu "It limits movement of your key players: the queen and the bishop. Your king is exposed to attack. And so you gain no advantage whatsoever."
-    m 7hfsdra "It's such a impressively terrible move that it's become a meme, with a appropiately funny name: the 'Bongcloud.'"
+    m 7hfsdra "It's such a impressively terrible move that it's become a meme, with an appropiately funny name: the 'Bongcloud.'"
     hide bongcloud
     show monika at t11
     m 4ssa "It’s been observed that funnily enough, professionals can be completely shaken by complete novices;"
