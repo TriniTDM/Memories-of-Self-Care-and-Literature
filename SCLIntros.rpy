@@ -151,7 +151,7 @@ label greeting_talktoherself:
         mt "What about? You can talk to me, I'm your friendly Literature Club president!"
         show monika 3rtd at t22
         m 3rtd "Well, it's not- it's not a specific concern?"
-        m 3rtd "I think it's just me being irrational. I worry that something'll seperate us, but.. well, at this point there's no reason to worry, right?"
+        m 3rtd "I think it's just me being irrational. I worry that something'll separate us, but.. well, at this point there's no reason to worry, right?"
         show monika 3ltd at t21
         mt "I mean, the fact that you're saying this out loud means you already know you're overreacting, right?"
         show monika 2ruc at t22
@@ -176,7 +176,7 @@ label greeting_talktoherself:
     else:
         show monika at t11
         m 3sfb "I'm feeling great, now that [player]'s arrived!"
-        m 3tfu "Gotcha! did you think you caught me talking to myself?"
+        m 3tfu "Gotcha! Did you think you caught me talking to myself?"
         show monika 1kuu at t22
         m "Safe to say, [player]-"
         show monika 1nuu at t21
@@ -341,7 +341,7 @@ label greeting_turnonthelights:
     python:
         randomdarkquips = [
             _("Did we forget to pay our electricity bill?"),
-            _("I don't suppose a eclipse is happening today?"),
+            _("I don't suppose an eclipse is happening today?"),
             _("Did we forget to program the sun correctly?"),
             _("I don't suppose the laws of physics needs a patch to download?"),
             _("Do we need to change a lightbulb?"),
@@ -459,8 +459,8 @@ label greeting_mcltoomuchtime:
     m "HOW MUCH TIME{fast} HAS PASSED SINCE YOU LAST OPENED THE GAME?!-"
     m 6tko "- Oh. Oh, it hasn't been that long at all."
     m 6gkx "Oh, gosh. I'm.."
-    m 2hku "Erm, how embarrasing."
+    m 2hku "Erm, how embarrassing."
     m 2ttu "You ever go for a nap and completely lose track of time?"
-    m 2eka "Well, luckily I know you'd never be so cruel as to leave and appear just like that after such a long abscence."
+    m 2eka "Well, luckily I know you'd never be so cruel as to leave and appear just like that after such a long absence."
     m 5dkp "... Especially as I felt like {i}literal centuries had passed,{/i} and that's {i}impossible{/i}..."
     return
