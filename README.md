@@ -30,10 +30,10 @@ If you have the Standalone file:
 
 Unzip the file with a program of your choice. The file should be a folder labelled MoSCL with all the files needed.
 
-In your MAS install, you want to create a 'submods' folder in the 'game' folder if you did not have a folder labelled already. Then in the submods folder, have the folder labelled MoSCL.
+In your MAS install, you want to create a 'Submods' folder in the 'game' folder if you did not have a folder labeled already. Then in the submods folder, have the folder labelled MoSCL.
 
-The end result is that your directory has a 'game' folder; in it a 'submods' folder; and then a folder containing the contents of this submod labelled 'MoSCL.'
+The end result is that your directory has a 'game' folder; in it a 'Submods' folder; and then a folder containing the contents of this submod labeled 'MoSCL.'
 
-Auto-updater version requires Booplicate's [Submod Updater Plugin](https://github.com/Booplicate/MAS-Submods-SubmodUpdaterPlugin) otherwise you will encounter a error upon booting up the game.
+Auto-updater version requires Booplicate's [Submod Updater Plugin](https://github.com/Booplicate/MAS-Submods-SubmodUpdaterPlugin) otherwise you will encounter an error upon booting up the game.
 
 This submod was originally created with MAS version 12.8; earlier versions are not guarenteed to work with SCL. Do not downgrade this submod into earlier versions.
