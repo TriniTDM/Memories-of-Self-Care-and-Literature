@@ -237,7 +237,7 @@ label mcl_shopformonikacoffee:
             _("Maybe.. caramel?"),
             _("Maybe.. white chocolate?"),
             _("Maybe.. ooh, Mexican hot chocolate with a bit of spiciness would be interesting!"),
-            _("Maybe.. peanut butter-flavoured?"),
+            _("Maybe.. peanut butter-flavored?"),
             _("Maybe.. that brand with a bit of cinnamon in it?"),
             _("Maybe.. one made with dark chocolate?"),
             _(".. I’m not saying it should come with marshmallows, but I won’t say no if it does~"),
@@ -249,7 +249,7 @@ label mcl_shopformonikacoffee:
     if mas_consumable_hotchocolate.enabled and mas_isWinter():
             if random.randint(1, 3) == 1:
                 m "Ooh, actually, since it’s winter I should ask..."
-                m 1etblu "It doesn't have to be right away, but I've been thinking if possible, could you try to grab a different flavour of hot chocolate?.."
+                m 1etblu "It doesn't have to be right away, but I've been thinking if possible, could you try to grab a different flavor of hot chocolate?.."
                 m 7etblu "[hotchocolatechoices]"
                 m 3fsb "Or surprise me outright, if you want! Either way, thanks, [player]. Love you!"
                 return "quit"
@@ -327,7 +327,7 @@ label bye_prompt_shopformonika:
             _("Maybe… caramel?"),
             _("Maybe… white chocolate?"),
             _("Maybe… ooh, Mexican hot chocolate with a bit of spiciness would be interesting!"),
-            _("Maybe… peanut butter-flavoured?"),
+            _("Maybe… peanut butter-flavored?"),
             _("Maybe… that brand with a bit of cinnamon in it?"),
             _("Maybe… one made with dark chocolate?"),
             _(".. I’m not saying it should come with marshmallows, but I won’t say no if it does~"),
@@ -351,7 +351,7 @@ label bye_prompt_shopformonika:
     if mas_consumable_hotchocolate.enabled and mas_isWinter():
             if random.randint(1, 3) == 1:
                 m "Ooh, actually, since it’s winter..."
-                m 1etblu "Whenever you get around to getting me some more, a new flavour of hot chocolate?"
+                m 1etblu "Whenever you get around to getting me some more, a new flavor of hot chocolate?"
                 m 7etblu "[hotchocolatechoices]"
                 m 3fsb "Or surprise me outright, if you want! Either way, thanks, [player]. Love you!"
                 return "quit"
@@ -423,7 +423,7 @@ init 5 python:
             eventlabel="bye_rainbow",
             unlocked=False,
             aff_range=(mas_aff.AFFECTIONATE, None),
-            conditional="seen_event('mcl_colouremotion')",
+            conditional="seen_event('mcl_coloremotion')",
             action=EV_ACT_UNLOCK
         ),
         code="BYE"
@@ -431,7 +431,7 @@ init 5 python:
 
 label bye_rainbow:
     m 7nfb "Okay, let me try this again.."
-    m 7hfb "Because I want to be all sparkles and colour when I see you off!"
+    m 7hfb "Because I want to be all sparkles and color when I see you off!"
     m 4sub "{rainbow}Goodbye, [player]!-{/rainbow}"
     if renpy.random.randint(1, 2) == 1:
         m 6sksdrx "- Anddddd there's the headache, {i}owowowowowow-{/i} "
