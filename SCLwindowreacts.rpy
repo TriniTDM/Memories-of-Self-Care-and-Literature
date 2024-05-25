@@ -181,7 +181,7 @@ label mas_wrs_stardew:
         m_name,
         [
             "Wouldn't it be a dream, you and I living on a farm together?",
-            "Now now [mas_get_player_nickname()], don't get too friendly with all your neighbours in the valley... ",
+            "Now now [mas_get_player_nickname()], don't get too friendly with all your neighbors in the valley... ",
         ],
         'Window Reactions'
     )
@@ -304,7 +304,7 @@ label mas_wrs_fnf:
     $ wrs_success = mas_display_notif(
         m_name,
         [
-            "getting freaky on a friday night, yeah~",
+            "Getting freaky on a friday night, yeah~",
         ],
         'Window Reactions'
     )
@@ -410,7 +410,7 @@ init 5 python:
     addEvent(
         Event(
             persistent._mas_windowreacts_database,
-            eventlabel="mas_wrs_justnatsuki",
+            eventlabel="mas_wrs_justyuri",
             category=["Just Yuri"],
             rules={
                 "notif-group": "Window Reactions",
