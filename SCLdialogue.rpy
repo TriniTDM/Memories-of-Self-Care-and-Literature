@@ -4156,7 +4156,7 @@ label mcl_distracted:
         "... what":
             m 1eta "Hmm?"
     m 7eta "That's rare, I'm sensing that you're a little confused."
-    m 7etd "But you asked me about a animal I think is cute, right?"
+    m 7etd "But you asked me about an animal I think is cute, right?"
     $ _history_list.pop()
     menu:
         "Nope! You just randomly started talking about ducks.":
@@ -4196,7 +4196,7 @@ label mcl_catchdistracted:
         "Right."
         "Perhaps you could try again in a few minutes?"
         return
-    "If sufficently distracted, you think that anything you ask can get a absent-minded answer; you have a odd desire to see this."
+    "If sufficiently distracted, you think that anything you ask can get a absent-minded answer; you have a odd desire to see this."
     $ sesh_shorter_than_5_mins = mas_getSessionLength() < datetime.timedelta(minutes=5)
     if sesh_shorter_than_5_mins:
         "However, this early into opening the game she seems quite alert."
@@ -4213,7 +4213,7 @@ label monikadistracted:
 
 label Choice_DA:
     m 1etu "Hey! What’s up, [player]?"
-    "[m_name] is as far as distracted as can be."
+    "[m_name] is as far from distracted as can be."
     "Well, maybe better luck next time."
     m 2eub "Nothing much? Always here if you want to talk!"
     return
@@ -4278,7 +4278,7 @@ label Choice_DB:
                 jump distracttwo
             if distract == 7:
                 m 1ltc "Hmm?"
-                m 7ltd "Oh, ah, I admit that pink is never quite a colour I seem to use well, although I find it cute enough…"
+                m 7ltd "Oh, ah, I admit that pink is never quite a color I seem to use well, although I find it cute enough…"
                 m 7rtd "…"
                 m 7essdrd "Oh, that wasn’t.. the answer you were…"
                 jump distracttwo
