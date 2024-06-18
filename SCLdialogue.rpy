@@ -169,7 +169,7 @@ label mcl_repeat:
     $ _history_list.pop()
     menu:
         "Monika? Monika? Monika!":
-            m 1sub "[mas_get_player_nickname()]!"
+            m 1sub "[mas_get_player_nickname(capitalize=True)]!"
     $ _history_list.pop()
     menu:
         "Moni-":
