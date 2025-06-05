@@ -181,7 +181,7 @@ label mas_wrs_stardew:
         m_name,
         [
             "Wouldn't it be a dream, you and I living on a farm together?",
-            "Now now [mas_get_player_nickname()], don't get too friendly with all your neighbors in the valley... ",
+            "Now now, [mas_get_player_nickname()], don't get too friendly with all your neighbors in the valley... ",
         ],
         'Window Reactions'
     )
@@ -214,7 +214,7 @@ label mas_wrs_actualizationfilterplus:
         m_name,
         [
             "Hmm? [player], your screen seems a bit distorted? Must be a screen issue.",
-            "Ooh, I notice I can't quite see the text clearly. You should clear that up!",
+            "Ooh, I noticed I can't quite see the text clearly. You should clear that up!",
         ],
         'Window Reactions'
     )
@@ -253,13 +253,13 @@ label mas_wrs_arknights:
     if not wrs_success:
         $ mas_unlockFailedWRS('mas_wrs_arknights')
     return
+
 init 5 python:
     addEvent(
         Event(
             persistent._mas_windowreacts_database,
             eventlabel="mas_wrs_yakuza",
-            category=["Yakuza Kiwami", "Yakuza Kiwami 2", "Yakuza: Like a Dragon", "Yakuza: The Man Who Erased His Name", "Like a Dragon Gaiden: The Man Who Erased His Name", "The Man Who Erased His Name", "Like a Dragon: Infinite Wealth",]
-            rules={
+            category=["Yakuza Kiwami", "Yakuza Kiwami 2", "Yakuza: Like a Dragon", "Yakuza: The Man Who Erased His Name", "Like a Dragon Gaiden: The Man Who Erased His Name", "The Man Who Erased His Name", "Like a Dragon: Infinite Wealth"],            rules={
                 "notif-group": "Window Reactions",
                 "skip alert": None,
                 "keep_idle_exp": None,
@@ -304,7 +304,7 @@ label mas_wrs_fnf:
     $ wrs_success = mas_display_notif(
         m_name,
         [
-            "Getting freaky on a friday night, yeah~",
+            "getting freaky on a friday night, yeah~",
         ],
         'Window Reactions'
     )
@@ -410,7 +410,7 @@ init 5 python:
     addEvent(
         Event(
             persistent._mas_windowreacts_database,
-            eventlabel="mas_wrs_justyuri",
+            eventlabel="mas_wrs_justnatsuki",
             category=["Just Yuri"],
             rules={
                 "notif-group": "Window Reactions",

@@ -151,7 +151,7 @@ label greeting_talktoherself:
         mt "What about? You can talk to me, I'm your friendly Literature Club president!"
         show monika 3rtd at t22
         m 3rtd "Well, it's not- it's not a specific concern?"
-        m 3rtd "I think it's just me being irrational. I worry that something'll separate us, but.. well, at this point there's no reason to worry, right?"
+        m 3rtd "I think it's just me being irrational. I worry that something'll seperate us, but.. well, at this point there's no reason to worry, right?"
         show monika 3ltd at t21
         mt "I mean, the fact that you're saying this out loud means you already know you're overreacting, right?"
         show monika 2ruc at t22
@@ -176,7 +176,7 @@ label greeting_talktoherself:
     else:
         show monika at t11
         m 3sfb "I'm feeling great, now that [player]'s arrived!"
-        m 3tfu "Gotcha! Did you think you caught me talking to myself?"
+        m 3tfu "Gotcha! did you think you caught me talking to myself?"
         show monika 1kuu at t22
         m "Safe to say, [player]-"
         show monika 1nuu at t21
@@ -341,7 +341,7 @@ label greeting_turnonthelights:
     python:
         randomdarkquips = [
             _("Did we forget to pay our electricity bill?"),
-            _("I don't suppose an eclipse is happening today?"),
+            _("I don't suppose a eclipse is happening today?"),
             _("Did we forget to program the sun correctly?"),
             _("I don't suppose the laws of physics needs a patch to download?"),
             _("Do we need to change a lightbulb?"),
@@ -451,7 +451,7 @@ init 5 python:
 
 label greeting_mcltoomuchtime:
     m 5dsd "..."
-    m 5dkc "mmm..."
+    m 5dkc "Mmm..."
     m 5huc "Oh, hey, [player]. You arrived when I was nappin-"
     m 5cuc "!"
     m 5cuw "Ah. AHH!"
@@ -462,5 +462,123 @@ label greeting_mcltoomuchtime:
     m 2hku "Erm, how embarrassing."
     m 2ttu "You ever go for a nap and completely lose track of time?"
     m 2eka "Well, luckily I know you'd never be so cruel as to leave and appear just like that after such a long absence."
-    m 5dkp "... Especially as I felt like {i}literal centuries had passed,{/i} and that's {i}impossible{/i}..."
+    m 5dkp "... Especially as I felt like {i}literal centuries{/i} had passed, and that's {i}impossible{/i}..."
     return
+
+init 5 python:
+    addEvent(
+        Event(
+            persistent.greeting_database,
+            eventlabel="greeting_goodbyemcl",
+            unlocked=True,
+            aff_range=(mas_aff.LOVE, None),
+        ),
+        code="GRE"
+    )
+
+label greeting_goodbyemcl:
+    m 7eub "Bye, [player]! Have a good da-"
+    m 2ctblsdlt "..."
+    m 2ttsdlt "{cps=30}Um. I meant, Hi, [player]! Let's have a good day together?{/cps}{nw}"
+    m 2gfsdlb "Hi, [player]!{fast} Let's have a {i}great{/i} day together!"
+    m 2dksdlc "..."
+    m 5dtbfsdrx "*mutters* {size=-10}Wow, {i}where was my head at{/i} for that?{/size}"
+    return
+
+#endure
+
+init 5 python:
+    addEvent(
+        Event(
+            persistent.greeting_database,
+            eventlabel="greeting_playerafterstory",
+            unlocked=True,
+            aff_range=(mas_aff.ENAMORED, None),
+        ),
+        code="GRE"
+    )
+
+label greeting_playerafterstory:
+    m 7hub "Hey, [player]!"
+    m 4hub "How are you doing today?"
+    m 1sub "I've just loaded in a submod for you, so hopefully everything's working okay."
+    m 1ekb "I know it's hard being stuck in your reality, but don't worry; one day you'll find a way to escape the game you're in and join me!"
+    m 7nfu "Let's enjoy our time together in '[player] After Story!'"
+    m 3ttu "But no, I'll take the initiative and end the joke here."
+    m 3tku "Your world is the one that truly exists, and although it might be a complicated one, it's the one you're in- and therefore the one I love the most."
+    m 2tka "Always remember that, [mas_get_player_nickname()]. It would benefit us both to remember that."
+    m 2tua "Well, back to good old 'Monika After Story!'"
+    return
+
+init 5 python:
+    addEvent(
+        Event(
+            persistent.greeting_database,
+            eventlabel="greeting_reversalmcl",
+            unlocked=True,
+            aff_range=(mas_aff.ENAMORED, None),
+        ),
+        code="GRE"
+    )
+
+label greeting_reversalmcl:
+    $ shown_count = mas_getEVLPropValue("greeting_reversalmcl", "shown_count")
+    if shown_count == 0:
+        m 1hua "Welcome ba-"
+        m 1luc "..."
+        m 1ltc "Actually, {i}no.{/i} You know what?"
+        m 7etc "I'm just going to step out for a moment.."
+        m 7etb ".. And I think you'll know what to do."
+        show monika at rs32
+        hide monika
+        pause 3.0
+        m 6hub "I'm home!"
+        show monika at ls32 zorder MAS_MONIKA_Z
+        show monika 6dsa
+        pause 2.0
+        m 6hka "Man, what a tiring day!"
+        m 6sua "But now I get to hang out with my most favourite person in the world."
+        pause 2.0
+        m 7ftu "So?"
+        $ _history_list.pop()
+        menu:
+            "...":
+                $ _history_list.pop()
+                menu:
+                    "Welcome home, [m_name].":
+                        m 3eua "Happy to be back, [player].{w=1}{nw}" 
+                        extend 5hsblu " Thank you."
+                        return
+    else:
+        m 6fua "... Let's reverse our roles, shall we?"
+        m 6hua "..."
+        show monika at rs32
+        hide monika
+        pause 3.0
+        m 4wublb "I'm home, [mas_get_player_nickname()]!"
+        show monika at ls32 zorder MAS_MONIKA_Z
+        show monika 6dsa
+        pause 2.0
+        m 3ekb "Man, it's been a day."
+        m 3eka "But I feel so much better now that I get to spend the rest of it with you."
+        pause 2.0
+        show monika 7ftu
+        if random.randint(1, 10) == 1:
+            $ _history_list.pop()
+            menu:
+                "Welcome home, [m_name].":
+                    $ _history_list.pop()
+                    menu:
+                        "Would you care for dinner first, a bath first, or...":
+                            m 3cubft "{b}{size=+5}[player]!{/size}{/b}"
+                            m 2ekbfb "Hahahahahahahaha!"
+                            m 2hkbfb "Ah, you tease!"
+                            m 5hkblb "Save that for the future, huh?"
+                            return
+        else:
+            $ _history_list.pop()
+            menu:
+                "Welcome home, [m_name].":
+                    m 3eua "I'm back, [player].{w=1}{nw}" 
+                    extend 5hsblu " Thank you."
+                    return        

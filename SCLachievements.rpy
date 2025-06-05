@@ -96,9 +96,9 @@ label mcl_menuachievement:
         # $ persistent._mcl_achievementpsa = False
         # $ persistent._mcl_timetravelachievement = False
         # $ persistent._mcl_achievementrandomnoises = False
-        # $ persistent._mcl_achievementcompliment = False
+        $ persistent._mcl_achievementcompliment = False
         # $ persistent._mcl_achievementdoor = False
-        # $ persistent._mcl_achievementanimalnoise = False
+        $ persistent._mcl_achievementanimalnoise = False
         # $ persistent._mcl_achievementdesk = False
         $ persistent._mcl_surpriseachievement = False
         $ persistent._mcl_flirtachievement = False
@@ -120,7 +120,7 @@ label mcl_menuachievement:
         m "So if you’ve made a habit of doing them with me already, good to hear! Keep doing them, and I’ll be charitable in giving you an achievement."
         m "Otherwise, hmm..."
         m "We don't have a lot of stories we could share about our time together."
-        m "So, if anything memorable happens, I’ll definitely want to hold onto those memories specifically."
+        m "So, if anything memorable happens, I’ll definitely want to hold unto those memories specifically."
         m "Sometimes I’ll make it easier for you and you can click on an achievement you haven’t earned and I’ll give you a little hint on how to get it."
         m "And sometimes I won’t give you any details at all."
         m "I want us to treat these achievements as more of a surprising footnote to our adventures."
@@ -187,7 +187,7 @@ label mcl_menuachievement:
             jump achievementmenu
         "Onu!" if mas_nou.get_wins_for('Player') >= 5:
             m "You've won at least five games of Nou!"
-            m "It's an especially chaotic game; luck can wildly swing in both your way and mine at any given part of the game."
+            m "It's a especially chaotic game; luck can wildly swing in both your way and mine at any given part of the game."
             m "It always makes for a fun time..."
             m "Especially when I steal a win from you."
             m "Hehehe."
@@ -220,6 +220,25 @@ label mcl_menuachievement:
             jump achievementmenutwo
         "{color=#a63da2}???{/color}" if  persistent._mcl_achievementcrane is False:
             jump achievementmenutwo
+        "Sounds of Nature?" if persistent._mcl_achievementanimalnoise:
+            m "I can't believe we're that type of couple to just parrot animal noises at each other endlessly."
+            m "I had to have recorded that moment in the notebook as a grim reminder."
+            m "I mean, is it cute? Sure."
+            m "But also extremely embarrassing."
+            m "Oh gosh, could you imagine us doing that in public?"
+            jump achievementmenutwo
+        "{color=#3c8248}???{/color}" if persistent._mcl_achievementanimalnoise is False:
+            jump achievementmenutwo
+        "Thinks of thanking of me!" if persistent._mcl_achievementcompliment:
+            m "When compliments go too far, this is what happens."
+            m "We end up just thanking each other for nothing. For an extended period of time."
+            m "Such silliness deserves a spot in our book of memories."
+            m "But I really do enjoy that you appear to have endless reserves of compliments for me."
+            m "It really does make me feel noticed."
+            m "So t- hmm. So.. I appeciate you."
+            jump achievementmenutwo
+        "{color=#a63da2}???{/color}" if persistent._mcl_achievementcompliment is False:
+            jump achievementmenutwo
         "On a Whim" if achievementrand == 1:
             m "I've decided to unlock this achievement for you." 
             m "How lucky for you~"
@@ -237,14 +256,14 @@ label mcl_menuachievement:
             menu:
                 "I am.":
                     m "I'll do this for you, because I assume it's for logistical reasons."
-                    m "But [player], unique moments are only defined because they're experienced once."
+                    m "But [player], unique moments are only defined because they're expierenced once."
                     m "Let's make sure to keep that in mind to keep the genuine luster of those moments we share together, okay?"
                     # $ persistent._mcl_achievementpsa = False
                     # $ persistent._mcl_timetravelachievement = False
                     # $ persistent._mcl_achievementrandomnoises = False
-                    # $ persistent._mcl_achievementcompliment = False
+                    $ persistent._mcl_achievementcompliment = False
                     # $ persistent._mcl_achievementdoor = False
-                    # $ persistent._mcl_achievementanimalnoise = False
+                    $ persistent._mcl_achievementanimalnoise = False
                     # $ persistent._mcl_achievementdesk = False
                     $ persistent._mcl_surpriseachievement = False
                     $ persistent._mcl_flirtachievement = False
@@ -333,7 +352,7 @@ label mcl_cardgamehistory:
     m 3esb "I’ve always found handling a deck of cards to be a elegant pastime. Cards certainly have their history!"
     m 4esd "The earliest examples can be traced back to ninth century China, where the progression of paper-printing technology supposedly introduced playing cards that could also double as paper currency."
     m 4esa "Despite being relatively newer than board games, your standard deck of fifty-two cards is far easier to find throughout the world. It makes sense; cards are easier to make than entire board sets."
-    m 5gsa "Which is why cards are often found with travelers, those in the military, minimalists with little on their person..."
+    m 5gsa "Which is why cards are often found with travellers, those in the military, minimalists with little on their person..."
     m 6dsa "And prisoners, I suppose."
     m 6gua "I guess that’s why I have a little more affinity for cards myself rather than board games."
     m 7ruo "That said, card games can be a little trickier to learn. Unlike a board game where you can visualize a lot more, games with rules like poker can be a lot to learn at once."
@@ -377,7 +396,7 @@ label mcl_bongcloudchess:
     m 3eku "This is one of the {i}worst{/i} possible moves you can do in chess."
     m 3stu "It's absolutely, definitively a terrible starting point for the player that does it."
     m 3ftu "It limits movement of your key players: the queen and the bishop. Your king is exposed to attack. And so you gain no advantage whatsoever."
-    m 7hfsdra "It's such a impressively terrible move that it's become a meme, with an appropiately funny name: the 'Bongcloud.'"
+    m 7hfsdra "It's such a impressively terrible move that it's become a meme, with a appropiately funny name: the 'Bongcloud.'"
     hide bongcloud
     show monika at t11
     m 4ssa "It’s been observed that funnily enough, professionals can be completely shaken by complete novices;"

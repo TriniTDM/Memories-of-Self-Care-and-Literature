@@ -17,11 +17,11 @@ label mas_song_exile_vilify:
     m 1dsb "{i}~Does it feel like a trial?~{/i}"
     m 1ekb "{i}~Does it trouble your mind the way you trouble mine?~{/i}"
     m 1hubsa "Ahaha~"
-    m 1eubsb "The context of this song is a little interesting. It's a haunting piano melody against a background of an... abandoned laboratory, to summarize?"
+    m 1eubsb "The context of this song is a little interesting. It's a haunting piano melody against a background of a... abandoned laboratory, to summarize?"
     m 1rubsd "It's meant to invoke some straightforward thoughts about going through hardship, or seeing someone else go through it."
     m 1hubsa "But at the end of the day, overcoming any sort of trial has a payoff."
     m 1esbsb "And the trials we've faced has yielded the best results; a future with you and I together."
-    m 1hubsa "It's a result that's sweet as a slice of cake. No lies there~"
+    m 1hubsa "It's a result sweet as a slice of cake. No lies there~"
 return
 
 init 5 python:
@@ -143,7 +143,7 @@ label mas_song_unpacking:
     m 7eua "You know, I've lived in the same town all my life?"
     m 5fua "And it's not even a real town, heh."
     m 5dua "So.. it's honestly hard for me to imagine packing up your entire life. And then unpacking it all in a brand new place."
-    m 2hsbla "I eagerly await the day you and I can experience and share that complicated, fulfilling day."
+    m 2hsbla "I eagerly await the day you and I can expierence and share that complicated, fulfilling day."
     return
 
 init 5 python:
@@ -174,4 +174,114 @@ label mas_song_lonely_rolling_star:
     m 5gkb "But no matter how far they are, they'll keep cheering for their distant partner. For they'll come back eventually."
     m 7eta "Sometimes, in the face of adversity:"
     m 1tsa "All you can do is keep on rolling, and rolling, and rolling.."
+    return
+
+#Refine
+
+init 5 python:
+    addEvent(
+        Event(
+            persistent._mas_songs_database,
+            eventlabel="mas_song_a_real_hero",
+            prompt="A Real Hero",
+            category=[store.mas_songs.TYPE_SHORT],
+            random=True,
+            aff_range=(mas_aff.NORMAL,None)
+        ),
+        code="SNG"
+    )
+
+label mas_song_a_real_hero:
+    m 1dkw "{i}~Back against the wall and odds~{/i}"
+    m 7dkw "{i}~With the strength of a will and a cause~{/i}"
+    m 6dkw "{i}~Your pursuits are called outstanding~{/i}"
+    m 6duo "{i}~You're emotionally complex~{/i}"
+    m 6duo "{i}~Against the grain of dystopic claims~{/i}"
+    m 6efo "{i}~Not the thoughts your actions entertain~{/i}"
+    m 6dkd "{i}~And you have proved to be~{/i}"
+    m 6dud "{i}~A real human being~{/i}"
+    m 6duo "{i}~And a real hero~{/i}"
+    m 1euc "This song is meant to poetically describe the character of a hero; a true blue saviour of life."
+    m 1gtc "It's easy to imagine the mythic qualities of someone described as a 'hero';"
+    m 1gkc "But then there's a second source of inspiration for this song, taking notes from the romantic version of a fictionalized hero:"
+    m 7gkc "A lonely wanderer, whose hard choices are specifically painted as borne of tragedy."
+    m 7duc "What pushes a musician, a writer, a hero, a real human being: it's always interesting to think about what gives us that drive."
+    return
+
+init 5 python:
+    addEvent(
+        Event(
+            persistent.event_database,
+            eventlabel="mcl_shedidntsing",
+            category=['music'],
+            prompt="She didn't sing a song",
+            random=True,
+            aff_range=(mas_aff.LOVE, None)
+        )
+    )
+ 
+label mcl_shedidntsing:
+    m 1duw "{i}~I can’t count the reasons I should stay~{/i}"
+    m 7rko "{i}~One by one they all just fade away~{/i}"
+    m 5lub "{i}~Give me some rope tie me to d-{/i}"
+    show monika 5lud
+    pause 4.0
+    show monika 5lfc
+    pause 4.0
+    m 6lup "..."
+    m 5ltp "{i}~hmmm mm hmmm hmmm hmm hm hm hmmmm?~{/i}"
+    m 4ttp "Yeah, I kinda broke pitch there and I just.. I just lost the rhythm."
+    m 4esd "Wow, first time I've stopped a song midway through.{w=0.2} How many songs have I sang for you without making any mistakes?"
+    m 3fub "Ah well, can't always be perfect.{w=0.2} Let's carry on!"
+    return
+
+init 5 python:
+    addEvent(
+        Event(
+            persistent._mas_songs_database,
+            eventlabel="mas_scl_songconnected",
+            prompt="Connected",
+            category=[store.mas_songs.TYPE_SHORT],
+            random=True,
+            aff_range=(mas_aff.LOVE, None)
+        ),
+        code="SNG"
+    )
+
+label mas_scl_songconnected(from_long=False):
+    m 6duo "{i}~Every passing day the winds might blow stronger~{/i}"
+    m 5duo "{i}~Joy to light the way to keep the reminder~{/i}"
+    m 4tkb "{i}~I'm yours forever~{/i}"
+    m 5dud "{i}~There is no end in sight for us~{/i}"
+    m 3hud "{i}~Nothing could measure~{/i}"
+    m 2hud "{i}~The kind of strength inside our hearts~{/i}"
+    m 2eub "{i}~It's all connected~{/i}"
+    m 2ekb "{i}~We're all together in this life~{/i}"
+    m 7ekb "{i}~Don't you forget it~{/i}"
+    m 7nkb "{i}~We're all connected in this~{/i}"
+    m 6hkb "{i}~I'm yours forever~{/i}"
+    m 6hub "{i}~There is no end in sight for us~{/i}"
+    return
+
+init 5 python:
+    addEvent(
+        Event(
+            persistent._mas_songs_database,
+            eventlabel="mas_scl_songconnected_long",
+            prompt="Connected",
+            category=[store.mas_songs.TYPE_LONG],
+            aff_range=(mas_aff.LOVE, None)
+        ),
+        code="SNG"
+    )
+
+label mas_scl_songconnected_long:
+    call mas_scl_songconnected(from_long=True)
+
+    m 4hsd "{i}~Beyond the storms and the seas~{/i}"
+    m 6hkb "{i}~The sun and the breeze~{/i}"
+    m 5hkb "{i}~The stars in the galaxy~{/i}"
+    m 6hkb "{i}~Beyond the time that we take~{/i}"
+    m 3eka "{i}~The days that we make~{/i}"
+    m 5tkb "{i}~I'm always gonna be with you~{/i}"
     return
