@@ -181,7 +181,7 @@ label mas_wrs_stardew:
         m_name,
         [
             "Wouldn't it be a dream, you and I living on a farm together?",
-            "Now now [mas_get_player_nickname()], don't get too friendly with all your neighbours in the valley... ",
+            "Now now [mas_get_player_nickname()], don't get too friendly with all your neighbors in the valley... ",
         ],
         'Window Reactions'
     )
@@ -214,7 +214,7 @@ label mas_wrs_actualizationfilterplus:
         m_name,
         [
             "Hmm? [player], your screen seems a bit distorted? Must be a screen issue.",
-            "Ooh, I notice I can't quite see the text clearly. You should clear that up!",
+            "Ooh, I can't quite see the text clearly. You should clear that up!",
         ],
         'Window Reactions'
     )

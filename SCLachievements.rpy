@@ -57,7 +57,7 @@ label mcl_startachievement:
                 m 7hua "I'm glad I asked, then."
                 m 5htd "I get that adding this would feel a bit too out of place in our dynamic."
                 m 4esd "But if you're ever interested, feel free to re-run this topic."
-                m 3esu "Who needs a special system when every day is a achievement with you?"
+                m 3esu "Who needs a special system when every day is an achievement with you?"
                 $ persistent._mcl_achievementtoggle = False
                 return
         m 3tkb "Now when I say 'special menu,' I mean I’ll write it all down in a spare school notebook I found, hahaha."
@@ -187,7 +187,7 @@ label mcl_menuachievement:
             jump achievementmenu
         "Onu!" if mas_nou.get_wins_for('Player') >= 5:
             m "You've won at least five games of Nou!"
-            m "It's a especially chaotic game; luck can wildly swing in both your way and mine at any given part of the game."
+            m "It's an especially chaotic game; luck can wildly swing in both your way and mine at any given part of the game."
             m "It always makes for a fun time..."
             m "Especially when I steal a win from you."
             m "Hehehe."
@@ -221,7 +221,7 @@ label mcl_menuachievement:
         "{color=#a63da2}???{/color}" if  persistent._mcl_achievementcrane is False:
             jump achievementmenutwo
         "Sounds of Nature?" if persistent._mcl_achievementanimalnoise:
-            m "I can't believe we're that type of couple to just parrot animal noises at each other endlessly."
+            m "I can't believe we're {i}that{/i} type of couple to just parrot animal noises at each other endlessly."
             m "I had to have recorded that moment in the notebook as a grim reminder."
             m "I mean, is it cute? Sure."
             m "But also extremely embarrassing."
@@ -250,13 +250,13 @@ label mcl_menuachievement:
         "~Reset all Achievements~":
             m "I- really?"
             m "... {i}Why,{/i} exactly?"
-            m "I made this in order for us to commorate certain milestones together."
+            m "I made this in order for us to commemorate certain milestones together."
             m "We really can't {i}reverse{/i} those moments, [player]. They've already happened."
             m "Are you sure about this?"
             menu:
                 "I am.":
                     m "I'll do this for you, because I assume it's for logistical reasons."
-                    m "But [player], unique moments are only defined because they're expierenced once."
+                    m "But [player], unique moments are only defined because they're experienced once."
                     m "Let's make sure to keep that in mind to keep the genuine luster of those moments we share together, okay?"
                     # $ persistent._mcl_achievementpsa = False
                     # $ persistent._mcl_timetravelachievement = False
@@ -396,7 +396,7 @@ label mcl_bongcloudchess:
     m 3eku "This is one of the {i}worst{/i} possible moves you can do in chess."
     m 3stu "It's absolutely, definitively a terrible starting point for the player that does it."
     m 3ftu "It limits movement of your key players: the queen and the bishop. Your king is exposed to attack. And so you gain no advantage whatsoever."
-    m 7hfsdra "It's such a impressively terrible move that it's become a meme, with a appropiately funny name: the 'Bongcloud.'"
+    m 7hfsdra "It's such an impressively terrible move that it's become a meme, with a appropiately funny name: the 'Bongcloud.'"
     hide bongcloud
     show monika at t11
     m 4ssa "It’s been observed that funnily enough, professionals can be completely shaken by complete novices;"

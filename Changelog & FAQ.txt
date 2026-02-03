@@ -39,7 +39,7 @@ Change Notes
 
 - 16 new topics, 2 intros, and 10 farewells added
 - "Ask the time" topic has been modified to get across that "Could you tell me the time?" may not be available until later boot-ups
-- Overide label for "Favourite Word" topic as missing unlocked=True 
+- Overide label for "Favorite Word" topic as missing unlocked=True 
 - Various typos/missing 'm' sprite indicators added back in
 - I'm going to keep it real with you. I'm still not sure how semantic versioning works.
 
@@ -55,7 +55,7 @@ Change Notes
 - wrong event conditional fix changed to unlock 'Surprise her' topic; thanks to L0l8it on Reddit for finding this.
 
 2.0.0
-(Reconsile Self & Literature)
+(Reconcile Self & Literature)
 
 - wait, theres like a new version of ren'py? i didnt get the memo on this, do i gotta recode everything or
 - i wrote this joke and update like months ago so this joke now makes less sense
@@ -91,7 +91,7 @@ A: Yes.
 Q: What's the expected writing style of this mod?
 A:	(Note that these bullet points may not all apply to existing content)
 -	Relatively serious. Memes dank but I don't write them in for the most part
--	THere are no specific trigger warnings to give that aren't already covered by this mod/base DDLC.
+-	There are no specific trigger warnings to give that aren't already covered by this mod/base DDLC.
 - 	DDLC+ is canon; Monika is *not* aware of the meta-content of DDLC+. The meta-narrative of this submod ties into that. 
 -	Monika’s existence and the details of how she interacts with her world are mostly obscure. For instance, her sleep is alluded to in the original game, being an unpleasant, out of body experience. 
 -	In this vein, Monika will never overtly discuss her existence in plain terms in length; she'll try to pivot the conversation in another direction if it gets too self-involved. Careful balance and tact is considered whenever she talks about ‘coding,’ the game, etc. 
@@ -128,7 +128,7 @@ A: This is a weird question even in the style of me making up a fake Q&A, but th
 
 Q: This seems a fair amount of effort. Why not submit this through offical channels/pull requests on GitHub?
 A: If I have a bit of time and figure out how GitHub works, I'm inclined to send in some of my work.
-But aside from creative liberties that might not work with the original/other submods, I have literally no prior expierence in coding, and my motiviation, like many writers, comes and goes. In the spirit of the community, I'd rather release this for public usage even in a simple state for everyone to enjoy.
+But aside from creative liberties that might not work with the original/other submods, I have literally no prior experience in coding, and my motiviation, like many writers, comes and goes. In the spirit of the community, I'd rather release this for public usage even in a simple state for everyone to enjoy.
 
 Q: Any future plans for this submod?
 A: Sure, but they're hampered by- what else- a lack of coding skill. I'd love to do events where Monika is in a special 'sick' or 'away' state locking you from regular conversation until the events are resolved, but I couldn't tell you if I could create even 1% of these events.

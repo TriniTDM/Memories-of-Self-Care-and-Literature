@@ -17,7 +17,7 @@ label mas_song_exile_vilify:
     m 1dsb "{i}~Does it feel like a trial?~{/i}"
     m 1ekb "{i}~Does it trouble your mind the way you trouble mine?~{/i}"
     m 1hubsa "Ahaha~"
-    m 1eubsb "The context of this song is a little interesting. It's a haunting piano melody against a background of a... abandoned laboratory, to summarize?"
+    m 1eubsb "The context of this song is a little interesting. It's a haunting piano melody against a background of an... abandoned laboratory, to summarize?"
     m 1rubsd "It's meant to invoke some straightforward thoughts about going through hardship, or seeing someone else go through it."
     m 1hubsa "But at the end of the day, overcoming any sort of trial has a payoff."
     m 1esbsb "And the trials we've faced has yielded the best results; a future with you and I together."
@@ -42,7 +42,7 @@ label mas_song_BBs_theme:
     m 3duo "{i}~The day is ending~{/i}"
     m 6fsu "{i}~Let that yawn out~{/i}"
     m 1fsa "{i}~There's no pretending~{/i}"
-    m 1dka "Hmmmmm. Comforting.~"
+    m 1dka "Hmmm. Comforting.~"
     m 1esa "This is a lullaby; I don't think there's any deeper meaning to the lyrics."
     m 4rtc "They say context is king, but I have no idea how to describe the setting where this song comes from."
     m 1hta "But lullabies don't have to be complicated. This one is a simple song sung by a father to soothe his baby boy."
@@ -143,7 +143,7 @@ label mas_song_unpacking:
     m 7eua "You know, I've lived in the same town all my life?"
     m 5fua "And it's not even a real town, heh."
     m 5dua "So.. it's honestly hard for me to imagine packing up your entire life. And then unpacking it all in a brand new place."
-    m 2hsbla "I eagerly await the day you and I can expierence and share that complicated, fulfilling day."
+    m 2hsbla "I eagerly await the day you and I can experience and share that complicated, fulfilling day."
     return
 
 init 5 python:
@@ -201,7 +201,7 @@ label mas_song_a_real_hero:
     m 6dkd "{i}~And you have proved to be~{/i}"
     m 6dud "{i}~A real human being~{/i}"
     m 6duo "{i}~And a real hero~{/i}"
-    m 1euc "This song is meant to poetically describe the character of a hero; a true blue saviour of life."
+    m 1euc "This song is meant to poetically describe the character of a hero; a true blue savior of life."
     m 1gtc "It's easy to imagine the mythic qualities of someone described as a 'hero';"
     m 1gkc "But then there's a second source of inspiration for this song, taking notes from the romantic version of a fictionalized hero:"
     m 7gkc "A lonely wanderer, whose hard choices are specifically painted as borne of tragedy."
