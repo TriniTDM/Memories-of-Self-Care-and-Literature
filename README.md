@@ -1,4 +1,4 @@
-![A screenshot that tells you absolutely nothing](https://user-images.githubusercontent.com/107741953/265365710-5aa5bbb5-798c-4c34-b3d8-ce2d2e39331f.png)
+![A screenshot that tells you absolutely nothing](https://github.com/Barsonvenus/Memories-of-Self-Care-and-Literature/blob/Alex/a%20screenshot%20that%20tells%20you%20nothing.png)
 
 # Memories of Self-Care & Literature
 
@@ -12,10 +12,10 @@ And in the spirit of DDLC and DDLC+, there's.. perhaps some interesting backgrou
 
 # Features
 
-- 113 new topic blocks, 6 songs, 2 Compliments, 15 window reacts, 15 new intros, 18 farewells, 6 new moods to talk about in the 'I feel' menu for those tricky times in life; and lastly, 1 not-so-fun fact.
+- 168 new topic blocks, 11 songs, 3 Compliments, 18 window reacts, 26 new intros, 23 farewells, 6 new moods to talk about in the 'I feel' menu for those tricky times in life; 1 apology, and lastly 1 not-so-fun fact.
 - An optional Achievement system tied into SCL and base MAS content
-- Repeatable topics with changing dialogue; catch a daydreaming Monika and peer into her thoughts! Flirt with Monika with bad pick-up lines! Cut loose and hear Monika yell into the void.
-- Fold endless amounts of paper cranes with Monika to help idle away the time
+- Repeatable topics with changing dialogue; catch a daydreaming Monika and peer into her thoughts! Flirt with Monika with bad pick-up lines! Cut loose and hear Monika yell into the void, argue with Monika about who's the politest, make cutesy animal noises at each other for far too long...
+- A idle game where you fold endless amounts of paper cranes with Monika to help pass the time
 - Expanded dialogue for yearly anniversaries and affection tier changes
 
 # Installation:
@@ -30,10 +30,10 @@ If you have the Standalone file:
 
 Unzip the file with a program of your choice. The file should be a folder labelled MoSCL with all the files needed.
 
-In your MAS install, you want to create a 'Submods' folder in the 'game' folder if you did not have a folder labeled already. Then in the submods folder, have the folder labelled MoSCL.
+In your MAS install, you want to create a 'submods' folder in the 'game' folder if you did not have a folder labelled already. Then in the submods folder, have the folder labelled MoSCL.
 
-The end result is that your directory has a 'game' folder; in it a 'Submods' folder; and then a folder containing the contents of this submod labeled 'MoSCL.'
+The end result is that your directory has a 'game' folder; in it a 'submods' folder; and then a folder containing the contents of this submod labelled 'MoSCL.'
 
-Auto-updater version requires Booplicate's [Submod Updater Plugin](https://github.com/Booplicate/MAS-Submods-SubmodUpdaterPlugin) otherwise you will encounter an error upon booting up the game.
+Auto-updater version requires Booplicate's [Submod Updater Plugin](https://github.com/Booplicate/MAS-Submods-SubmodUpdaterPlugin) otherwise you will encounter a error upon booting up the game.
 
 This submod was originally created with MAS version 12.8; earlier versions are not guarenteed to work with SCL. Do not downgrade this submod into earlier versions.

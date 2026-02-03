@@ -181,7 +181,7 @@ label mas_wrs_stardew:
         m_name,
         [
             "Wouldn't it be a dream, you and I living on a farm together?",
-            "Now now, [mas_get_player_nickname()], don't get too friendly with all your neighbors in the valley... ",
+            "Now now [mas_get_player_nickname()], don't get too friendly with all your neighbours in the valley... ",
         ],
         'Window Reactions'
     )
@@ -214,7 +214,7 @@ label mas_wrs_actualizationfilterplus:
         m_name,
         [
             "Hmm? [player], your screen seems a bit distorted? Must be a screen issue.",
-            "Ooh, I noticed I can't quite see the text clearly. You should clear that up!",
+            "Ooh, I notice I can't quite see the text clearly. You should clear that up!",
         ],
         'Window Reactions'
     )
@@ -410,7 +410,7 @@ init 5 python:
     addEvent(
         Event(
             persistent._mas_windowreacts_database,
-            eventlabel="mas_wrs_justnatsuki",
+            eventlabel="mas_wrs_justyuri",
             category=["Just Yuri"],
             rules={
                 "notif-group": "Window Reactions",
@@ -499,4 +499,101 @@ label mas_wrs_stp:
 
     if not wrs_success:
         $ mas_unlockFailedWRS('mas_wrs_stp')
+    return
+
+
+# Echoing Self-Care & Literature
+
+init 5 python:
+    addEvent(
+        Event(
+            persistent._mas_windowreacts_database,
+            eventlabel="mas_wrs_wuwa",
+            category=["Wuthering Waves", "Wuwa"],
+            rules={
+                "notif-group": "Window Reactions",
+                "skip alert": None,
+                "keep_idle_exp": None,
+                "skip_pause": None
+            },
+            show_in_idle=True
+        ),
+        code="WRS"
+    )
+
+label mas_wrs_wuwa:
+    $ wrs_success = mas_display_notif(
+        m_name,
+        [
+            "The wuthering waves ebb and flow. They shall send you back to where you belong.",
+        ],
+        'Window Reactions'
+    )
+
+    #Unlock again if we failed
+    if not wrs_success:
+        $ mas_unlockFailedWRS('mas_wrs_wuwa')
+    return
+
+init 5 python:
+    addEvent(
+        Event(
+            persistent._mas_windowreacts_database,
+            eventlabel="mas_wrs_starrail",
+            category=["Honkai: Star Rail", "Star Rail"],
+            rules={
+                "notif-group": "Window Reactions",
+                "skip alert": None,
+                "keep_idle_exp": None,
+                "skip_pause": None
+            },
+            show_in_idle=True
+        ),
+        code="WRS"
+    )
+
+label mas_wrs_starrail:
+    $ wrs_success = mas_display_notif(
+        m_name,
+        [
+            "May this journey lead us starward...",
+        ],
+        'Window Reactions'
+    )
+
+    #Unlock again if we failed
+    if not wrs_success:
+        $ mas_unlockFailedWRS('mas_wrs_starrail')
+    return
+
+init 5 python:
+    addEvent(
+        Event(
+            persistent._mas_windowreacts_database,
+            eventlabel="mas_wrs_genshin",
+            category=["Genshin Impact", "Genshin"],
+            rules={
+                "notif-group": "Window Reactions",
+                "skip alert": None,
+                "keep_idle_exp": None,
+                "skip_pause": None
+            },
+            show_in_idle=True
+        ),
+        code="WRS"
+    )
+
+label mas_wrs_genshin:
+    $ wrs_success = mas_display_notif(
+        m_name,
+        [
+            "Ad astra abyssosque, Traveller!",
+            "Remember, the stars in the sky will always have a place for you."
+        ],
+        'Window Reactions'
+    )
+
+    #Unlock again if we failed
+    if not wrs_success:
+        $ mas_unlockFailedWRS('mas_wrs_genshin')
     return
