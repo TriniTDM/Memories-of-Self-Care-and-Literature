@@ -14,8 +14,8 @@ label mcl_mood_weird:
     m 7esc "I get it, really. Sometimes you're feeling a lot of different emotions at once. Sometimes you're feeling something you can't put into words."
     m 7esc "Sometimes you know exactly what you're feeling.. but there are no words for it."
     m 1hsc "Sometimes that bundle of emotions comes and goes. That's natural."
-    m 1fsc "I hope this isn't because you aren't going through stressful circumstances that's hard to process, [player]. I'm here for you, remember that."
-    m 1esc "Sometimes a big, tangled ball of emotions needs to be untangled a thread at a time to make it a little more managable."
+    m 1fsc "I hope this isn't because you're going through stressful circumstances that are hard to process, [player]. I'm here for you, remember that."
+    m 1esc "Sometimes a big, tangled ball of emotions needs to be untangled a thread at a time to make it a little more manageable."
     m 1esa "If you're just feeling a little bit adrift... remember I can always be your north star."
     return
 
@@ -132,7 +132,7 @@ label mcl_mood_timescrewy:
             m 1eta "So we're just hung up on time passing a bit slowly, huh?"
             m 1gsa "As they say, 'Mood.'"
             m 7hka "They say a watched pot never boils, right? You can't concentrate on the idea of time passing, otherwise you're far too aware of it."
-            m 4hka "Time might be a little tricky to control, but your own patience? you can have a decent grasp on it."
+            m 4hka "Time might be a little tricky to control, but your own patience? You can have a decent grasp on it."
             m 2eka "Keep yourself distracted. I know it's hard to ask, but time's tricky like that. It'll pass by when you keep busy."
             m 2rua "And when you'll look back on it... you'll feel like that slice of eternity was barely that."
             m 5fua "I mean, I'm not going to complain about extra time with you, so... want to pass the time together?"
