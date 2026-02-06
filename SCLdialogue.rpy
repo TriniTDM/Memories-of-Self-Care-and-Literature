@@ -1112,10 +1112,10 @@ label mcl_chofee:
     m 3dfw "Bleh."
     m 3tto "Hot chocolate and coffee do not mix well together."
     m 4ttd "You’d think it’d work, because Mochas are a thing, but, well, they don’t."
-    m 4gsc "… Or so I hear. I wouldn’t know. I wasn’t bored enough to try mixing them."
+    m 4gsc "… Or so I heard. I wouldn’t know. I wasn’t bored enough to try mixing them."
     m 1lsc "Where did I hear it?"
     m 1tkb "Well, far be it from me to spoil a mystery for you."
-    m 7tkb "Although maybe it’s just not instant hot chocolate and instant coffee that doesn’t mix well."
+    m 7tkb "Although maybe it’s just instant hot chocolate and instant coffee that don’t mix well."
     m 6tkb "Again, though, this is all hearsay. It sounds crazy that anybody would try mixing the two in the first place."
     m 6tkt "Which is why I didn’t do it."
     return
@@ -1168,9 +1168,9 @@ label mcl_trends:
     m 3gsa ".. I imagine Natsuki was in vogue with culture regarding anime and manga.. "
     m 3wsa ".. I don't even think it weird if Sayori sent the Main Character memes."
     m 2eta "Funny to think about; I just was never really {i}into{/i} the latest movies, dressing up a certain way, living a specific lifestyle."
-    m 2ftd "Even now, connected to the internet and social media 24/7, I don't really latch unto anything trendy or memetic."
+    m 2ftd "Even now, connected to the internet and social media 24/7, I don't really latch on to anything trendy or memetic."
     m 1fsblb "Well.{w=0.5} I mean."
-    m 5nta "I'll latch unto {i}you{/i} any day of the week~"
+    m 5nta "I'll latch on to {i}you{/i} any day of the week~"
     return
 
 init 5 python:
@@ -1200,7 +1200,7 @@ label scl_enviromentalstorytelling:
     m 4eua "'Environmental Storytelling.'"
     m 4eub "In a medium such as videogames where player interaction largely contributes to the experience, sometimes being told the plot directly can be.. boring."
     m 7fuo "So allowing players to discover a story on their own by observing how items and locations are placed and arranged is a great way to contribute to a narrative!"
-    m 7eub "An example is right at the beginning of the first {i}Dark Souls{/i} game. You meet an injured knight in a dungeon; There’s no way out unless you trigger a trap, but there is a hole in the roof."
+    m 7eub "An example is right at the beginning of the first {i}Dark Souls{/i} game. You meet an injured knight in a dungeon; there’s no way out unless you trigger a trap, but there is a hole in the roof."
     m 3ftb "You don’t think about the logistics of this... until you discover the giant monster which likely threw the knight through the ground into the dungeon, which caused the hole in the first place."
     m 1fsb "That's a basic example, and this isn’t quite unique to videogames as a medium; examples can be found in film as well."
     m 1fsa "It's always interesting seeing how a storytelling medium evolves."
@@ -1227,14 +1227,14 @@ label scl_touchthesky:
     m 7eua "You might think you need to live on a mountain to achieve such a fantasy-like dream... and it’s true, for the most part."
     m 5dka "But I’d still love to be under a sky with clouds just tantalizingly out of reach, and that is much more possible."
     m 4tka "Quickly going over the math, while the elevation for when clouds form varies very heavily depending on a lot of conditions,"
-    m 4tua "An extreme rule of thumb is that it can start as low as six hundred metres above sea level."
-    m 4std "So with this ‘cloud ceiling’ at six hundred metres, you’d be surprised how many cities seem not that far off in comparison or above this ceiling."
-    m 4gsa "The city of Prague is 244 metres above sea level."
-    m "Canberra in Australia, 605 metres."
-    m 3gsb "Sao Paulo in Brazil, 760 metres!"
+    m 4tua "An extreme rule of thumb is that it can start as low as six hundred meters above sea level."
+    m 4std "So with this ‘cloud ceiling’ at six hundred meters, you’d be surprised how many cities seem not that far off in comparison or above this ceiling."
+    m 4gsa "The city of Prague is 244 meters above sea level."
+    m "Canberra in Australia, 605 meters."
+    m 3gsb "Sao Paulo in Brazil, 760 meters!"
     m 3etb "Don’t take my word for the exact math; I don’t think there are cities living in perpetual fields of clouds."
     m 1gkb "I mean, fog exists, though? Hehehe, I didn’t actually realize that until just now."
-    m 2gub "And it's easy to dismiss it as a number, but 600 hundred metres is a great height by any metric."
+    m 2gub "And it's easy to dismiss it as a number, but 600 hundred meters is a great height by any metric."
     m 2fub "But it’s nice to think about. You and I, with the sun gently bearing down on us while we pluck cotton-white clouds from the air."
     m 2fka "You can catch one and we'll bring it home to hang on the wall!"
     m 7tsblb "Or maybe nibble on one as a snack on the way home?"
@@ -1317,7 +1317,7 @@ label mcl_friendspartners:
     m 7hub "You’re my best friend!"
     m 3ttb "And I don't think I've ever actually emphasized it in plain terms."
     m "Funny, that. Considering it’s not unheard of for partners to consider each other their best friends."
-    m 3tta "Admittingly though, I ended up falling in love with you quite quickly from our first introduction, so it’s like we became partners before we fully became friends?"
+    m 3tta "Admittedly though, I ended up falling in love with you quite quickly from our first introduction, so it’s like we became partners before we fully became friends?"
     m 3esa "Which is also entirely possible, if not for how backwards that may sound. A friendship is a type of relationship, after all!"
     m 1gsd "Although honestly, I’m just wondering what ‘friend’ means at the end of the day."
     m 1dsd "Let’s look up a meaning from a dictionary…"
@@ -1362,7 +1362,7 @@ label mcl_literatureclubbestie:
             m 1esc "I’ve never had somebody like that in my life, so knowing somebody for years and years on end? It’s hard to imagine, honestly."
         "Natsuki?":
             m 1esc "I know the circumstances were unusual, but the way Natsuki showed concern for Yuri- "
-            m 7esb "- it showed that Natsuki’s the type of person who’d go out of her way to help her friends, even if she doesn't know how exactly."
+            m 7esb "- it showed that Natsuki’s the type of person who’d go out of her way to help her friends, even if she doesn’t know how exactly."
             m 7ekb "For a spitfire, she can be a little clumsy, huh?"
         "Yuri?":
             m 7ekb "I know that you might have seen an exaggerated side of her.."
@@ -1374,7 +1374,7 @@ label mcl_literatureclubbestie:
             m 6rka "I hope that on my part, I live up to the standard of a best friend."
             m 4tka "Now I feel like I’m interviewing for the position, hahaha."
             m 3hut "'I always look out for my friends, and I’ll always stick by them!'"
-            m 3tuu "That's kind of you to choose me.. again, but let's choose a actual answer from the other girls."
+            m 3tuu "That's kind of you to choose me.. again, but let's choose an actual answer from the other girls."
             label bestiechoices:
                 menu:
                     "Sayori?":
@@ -1503,7 +1503,7 @@ label mcl_dystopiasandyou:
     m 1mkc "Real life is the best example.. where war, famine, and societal collapse has already occurred. While not on a worldwide scale, it happens on a larger scale than we think."
     m 1muc "And in these times, there have always been stories- not many, but enough- of people doing the right thing and holding fast to morals."
     m 1fuc "This isn't meant to downplay those experiences of the people in your world who have gone through these, or to dismiss the serious issues dystopias bring up."
-    m 1dsc "It's just that literature isn’t meant to be a crystal ball predicting the future; it is a mirror. "
+    m 1dsc "It's just that literature isn’t meant to be a crystal ball predicting the future; it is a mirror."
     m 7dsc "And what we take away is sometimes what we {i}want{/i} to see in ourselves, not what we {i}should change.{/i}"
     m 3esp "As always, thanks for listening to me ramble on like this. I feel pretentious at times when I talk like this.."
     m 3gku "But I have to admit, talking about trying to be a good person one way or another always sounds pretentious to me, hahaha."
@@ -8187,7 +8187,7 @@ label mcl_cranefolding:
             "Paper Crane Fact: The record for quickest time to 1000 cranes is 9 hours, 31 minutes, 13 seconds!",
             "Paper Crane Fact: The largest display of paper cranes had over 2,331,631 shown off at once!",
             "Paper Crane Fact: The most amount of people that has made a paper crane at the same time is a group of 775!",
-            "Paper Crane Fact: The largest paper crane ever made has a wingspan of 81.94 metres- or 268 feet, 9 inches!",
+            "Paper Crane Fact: The largest paper crane ever made has a wingspan of 81.94 meters- or 268 feet, 9 inches!",
             "Paper Crane Fact: The last one I made has feelings. Nah, just kidding!"
             ]
         
